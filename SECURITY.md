@@ -6,6 +6,7 @@ Usage:
 
 ```
 npx solhint 'contracts/**/*.sol'
+
 ```
 
 ### ethlint (solium)
@@ -14,12 +15,14 @@ Usage:
 
 ```
 npx solium -d contracts/
+
 ```
 
 ### mythx
 
 ```
 mythx analyze contracts --remap-import "@openzeppelin/=$(pwd)/node_modules/@openzeppelin/"
+
 ```
 
 ### mythril
@@ -30,4 +33,5 @@ prone. Docker recommended instead.
 
 ```
 docker run -v $(pwd):/tmp mythril/myth analyze /tmp/contracts/
+
 ```

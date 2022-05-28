@@ -6,7 +6,7 @@ describe("ERC721NFT", function () {
     const nft = await NFT.deploy("NFTPort", "NFT");
     const URI = "ipfs://QmWJBNeQAm9Rh4YaW8GFRnSgwa4dN889VKm9poc2DQPBkv";
     await nft.deployed();
-    await nft.mintToCaller("0x5FDd0881Ef284D6fBB2Ed97b01cb13d707f91e42", URI);
+    await nft.mintToCaller("0xcc6CE1caF8D42ad3bf041f377f1F2C2FbC202b33", URI);
     expect(await nft.tokenURI(1)).to.equal(URI)
   });
 

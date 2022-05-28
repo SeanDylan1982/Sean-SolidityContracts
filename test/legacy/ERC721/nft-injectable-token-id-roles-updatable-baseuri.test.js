@@ -1,6 +1,6 @@
 const {expect} = require("chai");
 
-const caller = "0x5FDd0881Ef284D6fBB2Ed97b01cb13d707f91e42";
+const caller = "0xcc6CE1caF8D42ad3bf041f377f1F2C2FbC202b33";
 const baseURI = "ipfs://";
 const baseURIUpdated = "https://someipfs.com/mockhash/";
 

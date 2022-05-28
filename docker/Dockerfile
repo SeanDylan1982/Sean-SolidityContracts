@@ -17,7 +17,7 @@ RUN mkdir -p /.solcx && chown -R 1006:root /.solcx
 
 RUN apt-get update && apt-get install -y gcc
 
-# This is for the stupid Jenkins to be able to create conda env
+# This is for the Jenkins to be able to create conda env
 RUN chown -R 1006:root /opt/conda
 
 ADD environment.yml /

@@ -5,28 +5,33 @@
 
 ```
 npm install
+
 ```
 
 ### Run tests:
 
 ```
 cp template.env .env
+
 ```
 
 ```
 npx hardhat test --network hardhat
+
 ```
 
 ### Deployment:
 
 ```
 cp template.env .env
+
 ```
 
 Add wallet private key to `.env` file (template.env contains dummy private keys by default).
 
 ```
 npm run deploy:{networkName}
+
 ```
 
 `networkName` is one of:
@@ -35,8 +40,10 @@ npm run deploy:{networkName}
 - `rinkeby` (Ethereum testnet)
 
 ### To get the contracts bytecode:
+
 ```
 npx hardhat compile
+
 ```
 Check artifacts/contracts/{contractName}.sol/{contractName}.json["bytecode"]
 
@@ -49,8 +56,10 @@ Check artifacts/contracts/{contractName}.sol/{contractName}.json["bytecode"]
 3. Set `API_KEY_ETHERSCAN` and `API_KEY_POLYGONSCAN` in the `.env` file to the API keys generated in step 2.
 
 #### To verify:
+
 ```
 npm run verify:{networkName}
+
 ```
 
 `networkName` is one of:

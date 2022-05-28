@@ -12,7 +12,7 @@ async function main() {
   // console.log("ERC1155NFT deployed to:", ERC1155tokens.address);
 
   // const ERC1155TokensRoles = await hre.ethers.getContractFactory("ERC1155NFTRoles");
-  // const ERC1155tokensroles = await ERC1155TokensRoles.deploy("","Yo Block","YB","0xe30624B43A4C53a014b60db658928563a22A650A");
+  // const ERC1155tokensroles = await ERC1155TokensRoles.deploy("","Yo Block","YB","0xcc6CE1caF8D42ad3bf041f377f1F2C2FbC202b33");
   // await ERC1155tokensroles.deployed();
   // console.log("ERC1155TokensRoles deployed to:", ERC1155tokensroles.address);
 }

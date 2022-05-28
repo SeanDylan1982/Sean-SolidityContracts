@@ -1,5 +1,5 @@
 {
-  "name": "nftport-solidity-contracts",
+  "name": "sean-solidity-contracts",
   "scripts": {
     "node": "hardhat node --hostname 127.0.0.1",
     "deploy:polygon": "hardhat deploy --network polygon",
